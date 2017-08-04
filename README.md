@@ -1,7 +1,13 @@
+
 # A complete guide to selling your free BCash for Bitcoin
 
-This guide assumes you had Bitcoins in your possession prior to the hard fork, and you know the private key for those Bitcoins.
+>**Disclaimer**
+>
+> **The price of Bitcoin and other cryptocurrencies are very highly volatile. It is common for prices to increase or decrease by over 100% in a single day. Although this could mean potential huge profits, this also could mean potential huge losses. Only invest money which you are willing to lose.**
+>
+> I cannot and will not help you decide if selling BCash for Bitcoin will be financially beneficial in the long term. All steps are taken at your own risk. If you don't want to sell, you're not required to do any action. You do not need to "claim" your BCash, since you already have it.
 
+This guide assumes you had Bitcoins in your possession prior to the hard fork, and you know the private key for those Bitcoins. If you had Bitcoins in an exchange site, it's up for them to decide whether to give you BCash or not.
 
 ## Step 1 - Secure your Bitcoins
 
@@ -17,7 +23,9 @@ If you're using a wallet like Electrum, **you must create a new seed**, keep it 
 
 If all you have is a private key, you can import it to a wallet and send the Bitcoins to a new wallet via [the supported wallets](http://bitcoin.org/en/choose-your-wallet). 
 
-For example, in the online [Blockchain Wallet](http://blockchain.info/wallet), you'll need to create an account, go to **Settings**, **Addresses**, and then **Import Addresses**. Paste your private key, and you'll then be able to **Spend** the address balance to a new one of your choice. *Note: Using Blockchain Wallet itself, with a seed, isn't considered the most secure by some, but here we're only importing an address and then spending it immediately*.
+For example, in the online [Blockchain Wallet](http://blockchain.info/wallet), you'll need to create an account, go to **Settings**, **Addresses**, and then **Import Addresses**. Paste your private key, and you'll then be able to **Spend** the address balance to a new one of your choice. 
+
+> *Note: Using Blockchain Wallet itself, with a seed, isn't considered the most secure by some, but here we're only importing an address and then spending it immediately.*
 
 
 ## Step 2 - Install a BCash wallet and import your old Bitcoin address
@@ -40,6 +48,10 @@ Once you install the wallet, import your old Bitcoin address with the private ke
 * [Instructions for Trezor owners](https://blog.trezor.io/claim-bcash-bitcoin-cash-bch-bcc-trezor-wallet-f0a810d5864a)
 * [Instructions for Digital Bitbox owners](https://digitalbitbox.com/faq)
 
+### Using the original ABC wallet
+
+**ABC** is the original name of BCash. See [the instructions](COMPILE_ABC.md) to compile and use the full wallet.
+
 
 ## Step 3 - Send the BCash to an exchange of your choice
 
@@ -53,6 +65,7 @@ The following exchange sites are said to support BCash deposits:
 
 * [HitBTC](https://hitbtc.com/) is accepting BCash deposits, without any customer verification process, and allows you to exchange it only after 2 confirmations.
 * [ViaBTC](https://www.viabtc.com/) is accepting BCash deposits, and you can exchange it after 1 confirmation. But you need to wait for 20 confirmations to withdraw the received Bitcoins. Name, mobile number and ID card number are required for verification.
+* [Bittrex](https://bittrex.com/) is accepting BCash deposits and allows you to exchange it after 20 confirmations. Peronal information is requiered for withdrawals.
 
 HitBTC seems like the best option for now, with only 2 required confirmations and fast withdrawal of the Bitcoins. In HitBTC, simply register and go to ***Account***, find the ***BCC Bitcoin Cash*** row and click the plus icon ("Fund"). You'll receieve a BCash address and you'll need to send your BCash to that address. You can do that with Electron Cash.
 
